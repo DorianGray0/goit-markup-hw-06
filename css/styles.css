@@ -619,6 +619,8 @@ button {
   border-radius: 4px;
   border-color: transparent;
   outline: transparent;
+
+  transition: background-color 250ms var(--cubic-bezier-main);
 }
 
 .footer-btn-subscribe:hover,
