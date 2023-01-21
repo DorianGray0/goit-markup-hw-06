@@ -449,6 +449,38 @@
               </svg>
             </div>
           </div>
+
+          <div class="modal-field">
+            <label for="user-comment" class="modal-label-text">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="modal-form-comment"
+            ></textarea>
+          </div>
+
+          <div class="modal-check-field">
+            <input
+              type="checkbox"
+              name="user-agree"
+              id="user-agree"
+              value="true"
+              class="modal-check-input visually-hidden"
+            />
+            <label for="user-agree" class="modal-check-label"
+              ><span class="chek-icon-wrap">
+                <svg class="modal-check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check-vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the <a href="">Privacy Policy</a>
+            </label>
+          </div>
+
+          <div class="modal-submit-wrap">
+            <button type="submit" class="modal-submit">Send</button>
+          </div>
         </form>
       </div>
     </div>
