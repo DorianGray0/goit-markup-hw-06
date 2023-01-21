@@ -881,12 +881,21 @@ button {
 
   outline: transparent;
 
-  transition: border-color 250ms var(--cubic-bezier-main);
+  transition: border-color 250ms var(--cubic-bezier-main),
+    background-color 250ms var(--cubic-bezier-main);
 }
 
 .modal-input:focus,
 .modal-form-comment:focus {
   border-color: var(--color-accent);
+}
+
+.modal-input:not(:placeholder-shown):not(:focus):valid {
+  background-color: rgba(0, 128, 0, 0.274);
+}
+
+.modal-input:not(:placeholder-shown):not(:focus):invalid {
+  background-color: rgba(128, 0, 0, 0.274);
 }
 
 .icon-input {
