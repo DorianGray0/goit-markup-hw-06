@@ -407,9 +407,29 @@
             </li>
           </ul>
         </div>
+
+        <form class="footer-form">
+          <label for="mail-subscribe" class="footer-label">Subscribe</label>
+          <div class="footer-subscribe-wrap">
+            <input
+              type="email"
+              name="mail-subscribe"
+              id="mail-subscribe"
+              placeholder="E-mail"
+              class="footer-input"
+            />
+            <button type="submit" class="footer-btn-subscribe">
+              Subscribe
+              <svg class="footer-subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="icon-modal" width="8px" height="8px">
