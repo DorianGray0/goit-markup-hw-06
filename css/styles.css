@@ -948,7 +948,8 @@ button {
 .modal-check-label a {
   text-decoration: underline;
   color: var(--color-accent);
-  margin-left: 4px;
+
+  /* margin-left: 4px; */
 }
 
 .chek-icon-wrap {
